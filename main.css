@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "PlexSansMedium";
+    src: url(/fonts/IBMPlexSans-Medium.ttf);
+}
+@font-face {
+    font-family: "PlexSerifMedium";
+    src: url(/fonts/IBMPlexSerif-Medium.ttf);
+}
+@font-face {
+    font-family: "PlexSerifRegular";
+    src: url(/fonts/IBMPlexSans-Regular.ttf);
+}
+@font-face {
+    font-family: "PlexSerifBold";
+    src: url(/fonts/IBMPlexSans-Bold.ttf);
+}
+@font-face {
+    font-family: "PlexSansSemiBold";
+    src: url(/fonts/IBMPlexSans-SemiBold.ttf);
+}
+.inter-40{
+    margin-right: 40px;
+}
+.inter-72{
+    margin-right: 72px;
+}
+body{
+    margin: 0; 
+    padding: 0;
+}
+.nav-link{
+    font-family: PlexSansMedium;
+    font-size: 16px;
+    letter-spacing: 119%;
+}
+.spin{
+    background-image: url('images/Background.png');
+    background-size: cover;
+    height: 100vh;
+}
+.bg-main{
+    background-color: #DEEEFC;
+}
+.for-title{
+    font-family: PlexSerifMedium;
+    font-size: 40px;
+}
+.pad-title{
+    padding-top: 110px;
+}
+.col-2>hr{
+    width: 16px;
+}
+.text-gray{
+    color: #061224
+}
+.h2-title{
+    font-family: PlexSansMedium;
+    font-size: 24px;
+}
+.col-5>span{
+    font-family: PlexSerifRegular;
+}
+.button_trial{
+    color: white;
+    font-family: PlexSerifBold;
+    font-size: 16;
+}
+.sec-section{
+    margin-top: 240px;
+}
+.card-time{
+    font-family: PlexSansMedium;
+    font-size: 14px;
+}
+.card-title{
+    font-family: PlexSansSemiBold;
+    font-size: 24px;
+}
+.card-tag{
+    font-family: PlexSansMedium;
+    font-size: 12px;
+}
+.card-describe{
+    font-family: PlexSerifRegular;
+    font-size: 18px;
+}
+.question-font{
+    font-family: PlexSansMedium;
+    font-size: 18px;
+}
+.form-block{
+    background-color: #D8F1F0;
+}
+footer{
+    background-color: #061224;
+}
