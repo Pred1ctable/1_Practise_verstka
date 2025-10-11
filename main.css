@@ -1,22 +1,22 @@
 @font-face {
   font-family: "PlexSansMedium";
-  src: url("/fonts/IBMPlexSans-Medium.ttf");
+  src: url('/fonts/IBMPlexSans-Medium.ttf');
 }
 @font-face {
   font-family: "PlexSerifMedium";
-  src: url("/fonts/IBMPlexSerif-Medium.ttf");
+  src: url('/fonts/IBMPlexSerif-Medium.ttf');
 }
 @font-face {
   font-family: "PlexSerifRegular";
-  src: url("/fonts/IBMPlexSans-Regular.ttf");
+  src: url('/fonts/IBMPlexSans-Regular.ttf');
 }
 @font-face {
   font-family: "PlexSerifBold";
-  src: url("/fonts/IBMPlexSans-Bold.ttf");
+  src: url('/fonts/IBMPlexSans-Bold.ttf');
 }
 @font-face {
   font-family: "PlexSansSemiBold";
-  src: url("/fonts/IBMPlexSans-SemiBold.ttf");
+  src: url('/fonts/IBMPlexSans-SemiBold.ttf');
 }
 .inter-40 {
   margin-right: 40px;
