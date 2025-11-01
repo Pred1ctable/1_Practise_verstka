@@ -8,260 +8,530 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+  
     <header>
-        <nav class="navbar navbar-expand-lg bg-primary p-3">
-                <a class="navbar-brand col-4" href="#">
-                    <img src="./images/Logo.svg" alt="">
-                </a>
-            <div class="navbar-collapse">
-                <ul class="navbar-nav mb-2 mb-lg-0">
-                    <li class="nav-item inter-40">
-                        <a class="nav-link active text-white fs-6" aria-current="page" href="#">+7 906 593 03 24</a>
-                    </li>
-                    <li class="nav-item inter-40">
-                        <a class="nav-link text-white fs-6" href="#">ПРО НАС</a>
-                    </li>
-                    <li class="nav-item inter-40">
-                        <a class="nav-link text-white fs-6" href="#">ЦЕНЫ</a>
-                    </li>
-                    <li class="nav-item inter-72">
-                        <a class="nav-link text-white fs-6" href="#">КОНТАКТЫ</a>
-                    </li>
-                    <li class="nav-item inter-72">
-                        <a class="nav-link text-white fs-6" href="#">ВХОД</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white fs-6 border rounded-5 px-5 inter-72" href="#">РЕГИСТРАЦИЯ</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            РУС
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">РУС</a></li>
-                            <li><a class="dropdown-item" href="#">ENG</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+<nav class="navbar navbar-expand-md bg-primary p-3 d-flex flex-row">
+  <a class="navbar-brand col-4" style="max-width: 146px;" href="#">
+    <img src="./images/Logo.svg" alt="">
+  </a>
+ 
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+ 
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <ul class="navbar-nav mb-2 mb-md-0 mx-4 w-100 d-flex justify-content-end" style="text-wrap: nowrap;">
+    
+      <li class="nav-item inter-24 d-flex justify-content-center">
+        <a class="nav-link text-white fs-6" href="#">ПРО НАС</a>
+      </li>
+      <li class="nav-item inter-24 d-flex justify-content-center">
+        <a class="nav-link text-white fs-6" href="#">ЦЕНЫ</a>
+      </li>
+      <li class="nav-item inter-24 d-flex justify-content-center">
+        <a class="nav-link text-white fs-6" href="#">КОНТАКТЫ</a>
+      </li>
+      <li class="nav-item inter-24 d-flex justify-content-center">
+        <a class="nav-link text-white fs-6" href="#">ВХОД</a>
+      </li>
+      <li class="nav-item d-flex justify-content-center">
+  <a class="nav-link text-white fs-6 border rounded-5 px-5 inter-24 w-auto d-flex justify-content-center" style="text-align: center;" href="#">РЕГИСТРАЦИЯ</a>
+      </li>
+      <li class="nav-item dropdown d-flex justify-content-center">
+        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          РУС
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item d-flex justify-content-center" href="#">РУС</a></li>
+          <li><a class="dropdown-item d-flex justify-content-center" href="#">ENG</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
     </header>
-    <div class="container-fluid spin pad-title bg-main">
+<div id="stepsCarousel" class="carousel slide pad-title bg-main" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <div class="spin" style="background-image: url('./images/Background.png');">
         <div class="container">
-            <div class="row">
-                <div class="col-6 for-title">
-                    Цифровой документооборот в три этапа:
-                </div>
+          <div class="row">
+            <div class="col-6 for-title">
+              Цифровой документооборот в три этапа:
             </div>
-            <div class="row mb-5">
-                <div class="col-2 mt-5">
-                    <span class="fs-4 text-black px-2">1</span>
-                    <span class="text-primary">—</span>
-                    <span class="px-2 text-gray fs-5">2</span>
-                    <span class="text-primary">—</span>
-                    <span class="px-2 text-gray fs-5">3</span>
+          </div>
+          <div class="row mb-5">
+            <div class="col-2 mt-5">
+              <span class="fs-4 text-black px-2">1</span>
+              <span class="text-primary">—</span>
+              <span class="px-2 text-gray fs-5">2</span>
+              <span class="text-primary">—</span>
+              <span class="px-2 text-gray fs-5">3</span>
             </div>
-            <div class="row">
-                <div class="col-3 pt-4">
-                    <span class="h2-title">Быстрая регистрация</span>
-                </div>
+          </div>
+          <div class="row">
+            <div class="col-3 pt-4">
+              <span class="h2-title">Быстрая регистрация</span>
             </div>
-            <div class="row">
-                <div class="col-5 pt-3">
-                    <span class="text-gray fs-6">Мы создали, возможно, самую простую регистрацию.</span>
-                    <br>
-                    <span class="text-gray fs-6">Регистрируйся, получай полный доступ к сервису и</span>
-                    <br>
-                    <span class="text-gray fs-6">1000 подписей документов в подарок!</span>
-                </div>
+          </div>
+          <div class="row">
+            <div class="col-5 pt-3">
+              <span class="text-gray fs-6">Мы создали, возможно, самую простую регистрацию.</span><br>
+              <span class="text-gray fs-6">Регистрируйся, получай полный доступ к сервису и</span><br>
+              <span class="text-gray fs-6">1000 подписей документов в подарок!</span>
             </div>
-            <div class="row">
-                <div class="col-3 pt-5">
-                    <button class="bg-primary rounded-5 border-0 px-4 py-3">
-                        <span class="button_trial">ПОПРОБОВАТЬ БЕСПЛАТНО</span>
-                    </button>
-                </div>
+          </div>
+          <div class="row">
+            <div class="col-3 pt-5">
+              <a href="#target-block" class="bg-primary rounded-5 border-0 px-4 py-3 button_trial" style="display: inline-block; text-decoration: none;">
+  ПОПРОБОВАТЬ БЕСПЛАТНО
+</a>
             </div>
+          </div>
         </div>
-        </div>    
-    <div class="container bg-white sec-section mb-5">
-        <div class="row">
-            <div class="col-6 d-flex justify-content-between">
-                <span>ВСЕ</span>
-                <span>НОВОСТИ</span>
-                <span>ОБУЧЕНИЕ</span>
-                <span>ЗАКОНЫ</span>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="spin" style="background-image: url('./images/box.png');">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 for-title">
+              Цифровой документооборот в три этапа:
             </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col-2 mt-5">
+              <span class="px-2 text-gray fs-5">1</span>
+              <span class="text-primary">—</span>
+              <span class="fs-4 text-black px-2">2</span>
+              <span class="text-primary">—</span>
+              <span class="px-2 text-gray fs-5">3</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3 pt-4">
+              <span class="h2-title">Загрузи документ</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-5 pt-3">
+              <span class="text-gray fs-6">Загружай в систему любой документ которые надо</span><br>
+              <span class="text-gray fs-6">подписать, договор, акт выполненных работ,</span><br>
+              <span class="text-gray fs-6">да что угодно.</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3 pt-5">
+              <a href="#target-block" class="bg-primary rounded-5 border-0 px-4 py-3 button_trial" style="display: inline-block; text-decoration: none;">
+  ПОПРОБОВАТЬ БЕСПЛАТНО
+</a>
+            </div>
+          </div>
         </div>
-        <div class="row mt-4 mb-5">
-            <div class="col-4">
-                <img src="./images/Card-1.png" alt="" class="mb-2">
-                <div class="card-time">05.03.2020</div>
-                <div class="mb-2 card-title">Burn Calories Quicker in 30 Min.</div>
-                <div class="d-flex flex-row gap-1">
-                    <span class="bg-light border rounded-5 py-1 px-2 card-tag">ПРО ПРОДУКТ</span>
-                    <span class="bg-light border rounded-5 py-1 px-2 card-tag">ТЭГИ</span>
-                </div>
-                <span class="card-describe">Не следует, однако забывать, что</span>
-                <div class="card-describe">дальнейшее развитие различных форм </div>
-                <div class="card-describe">деятельности</div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="spin" style="background-image: url('./images/box-1.png');">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 for-title">
+              Цифровой документооборот в три этапа:
             </div>
-            <div class="col-4">
-                <img src="./images/Card-2.png" alt="" class="mb-2">
-                <div class="card-time">05.03.2020</div>
-                <div class="mb-2 card-title">Burn Calories Quicker in 30 Min.</div>
-                <div class="d-flex flex-row gap-1">
-                    <span class="bg-light border rounded-5 py-1 px-2 card-tag">ПРО ПРОДУКТ</span>
-                    <span class="bg-light border rounded-5 py-1 px-2 card-tag">ТЭГИ</span>
-                </div>
-                <span class="card-describe">Не следует, однако забывать, что</span>
-                <div class="card-describe">дальнейшее развитие различных форм </div>
-                <div class="card-describe">деятельности</div>
+          </div>
+          <div class="row mb-5">
+            <div class="col-2 mt-5">
+              <span class="px-2 text-gray fs-5">1</span>
+              <span class="text-primary">—</span>
+              <span class="px-2 text-gray fs-5">2</span>
+              <span class="text-primary">—</span>
+              <span class="fs-4 text-black px-2">3</span>
             </div>
-            <div class="col-4">
-                <img src="./images/Card-3.png" alt="" class="mb-2">
-                <div class="card-time">05.03.2020</div>
-                <div class="mb-2 card-title">Burn Calories Quicker in 30 Min.</div>
-                <div class="d-flex flex-row gap-1">
-                    <span class="bg-light border rounded-5 py-1 px-2 card-tag">ПРО ПРОДУКТ</span>
-                    <span class="bg-light border rounded-5 py-1 px-2 card-tag">ТЭГИ</span>
-                </div>
-                <span class="card-describe">Не следует, однако забывать, что</span>
-                <div class="card-describe">дальнейшее развитие различных форм </div>
-                <div class="card-describe">деятельности</div>
+          </div>
+          <div class="row">
+            <div class="col-3 pt-4">
+              <span class="h2-title">Подпиши и отправь</span>
             </div>
+          </div>
+          <div class="row">
+            <div class="col-5 pt-3">
+              <span class="text-gray fs-6">Подписывай своей электронно-цифровой подписью и</span><br>
+              <span class="text-gray fs-6">за долю секунды отправь партнеру или компании.</span><br>
+              <span class="text-gray fs-6">Он подписывает в ответ и все! Готово! </span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3 pt-5">
+              <a href="#target-block" class="bg-primary rounded-5 border-0 px-4 py-3 button_trial" style="display: inline-block; text-decoration: none;">
+  ПОПРОБОВАТЬ БЕСПЛАТНО
+</a>
+            </div>
+          </div>
         </div>
-        <div class="row mt-4 mb-5">
-            <div class="col-4">
-                <img src="./images/Card-1.png" alt="" class="mb-2">
-                <div class="card-time">05.03.2020</div>
-                <div class="mb-2 card-title">Burn Calories Quicker in 30 Min.</div>
-                <div class="d-flex flex-row gap-1">
-                    <span class="bg-light border rounded-5 py-1 px-2 card-tag">ПРО ПРОДУКТ</span>
-                    <span class="bg-light border rounded-5 py-1 px-2 card-tag">ТЭГИ</span>
-                </div>
-                <span class="card-describe">Не следует, однако забывать, что</span>
-                <div class="card-describe">дальнейшее развитие различных форм </div>
-                <div class="card-describe">деятельности</div>
-            </div>
-            <div class="col-4">
-                <img src="./images/Card-2.png" alt="" class="mb-2">
-                <div class="card-time">05.03.2020</div>
-                <div class="mb-2 card-title">Burn Calories Quicker in 30 Min.</div>
-                <div class="d-flex flex-row gap-1">
-                    <span class="bg-light border rounded-5 py-1 px-2 card-tag">ПРО ПРОДУКТ</span>
-                    <span class="bg-light border rounded-5 py-1 px-2 card-tag">ТЭГИ</span>
-                </div>
-                <span class="card-describe">Не следует, однако забывать, что</span>
-                <div class="card-describe">дальнейшее развитие различных форм </div>
-                <div class="card-describe">деятельности</div>
-            </div>
-            <div class="col-4">
-                <img src="./images/Card-3.png" alt="" class="mb-2">
-                <div class="card-time">05.03.2020</div>
-                <div class="mb-2 card-title">Burn Calories Quicker in 30 Min.</div>
-                <div class="d-flex flex-row gap-1">
-                    <span class="bg-light border rounded-5 py-1 px-2 card-tag">ПРО ПРОДУКТ</span>
-                    <span class="bg-light border rounded-5 py-1 px-2 card-tag">ТЭГИ</span>
-                </div>
-                <span class="card-describe">Не следует, однако забывать, что</span>
-                <div class="card-describe">дальнейшее развитие различных форм </div>
-                <div class="card-describe">деятельности</div>
-            </div>
+      </div>
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#stepsCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#stepsCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+<div class="container bg-white sec-section mb-5">
+  <ul class="nav nav-tabs mb-3" id="cardsTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all-cards" type="button" role="tab">ВСЕ</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="news-tab" data-bs-toggle="tab" data-bs-target="#news-cards" type="button" role="tab">НОВОСТИ</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="edu-tab" data-bs-toggle="tab" data-bs-target="#edu-cards" type="button" role="tab">ОБУЧЕНИЕ</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="laws-tab" data-bs-toggle="tab" data-bs-target="#laws-cards" type="button" role="tab">ЗАКОНЫ</button>
+    </li>
+  </ul>
+  
+  <div class="tab-content" id="cardsTabContent">
+    <div class="tab-pane fade show active" id="all-cards" role="tabpanel">
+      <div class="row mt-4 mb-5">
+        <div class="col-4">
+          <img src="./images/Card-1.png" alt="" class="mb-2">
+          <div class="card-time">05.03.2020</div>
+          <div class="mb-2 card-title">Burn Calories Quicker in 30 Min.</div>
+          <div class="d-flex flex-row gap-1">
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ПРО ПРОДУКТ</span>
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ТЭГИ</span>
+          </div>
+          <span class="card-describe">Не следует, однако забывать, что</span>
+          <div class="card-describe">дальнейшее развитие различных форм </div>
+          <div class="card-describe">деятельности</div>
         </div>
-    </div>
-    <div class="row">
-        <img src="./images/diverse line.svg" class="w-75 mx-auto mb-5">
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-8">
-                <div class="for-title mb-3">Популярные вопросы и ответы на них</div>
-                <div class="card-title mb-2">Популярные вопросы
-                    <img src="./images/-.svg" alt="">
-                </div>
-                <div>
-                    <div>
-                        <img src="./images/+.svg" class="mr-3 align-baseline" alt="">
-                        <span class="card-describe">Почему круглую пиццу ставят в квадратную коробку, а</span>
-                    </div>
-                    <div class="card-describe pl-3"> нарезают треугольниками?</div>
-                </div>
-                <div class="mt-3">
-                    <div>
-                        <img src="./images/-.svg" class="" alt="">
-                        <span class="question-font ml-3">Почему после ремонта дорога опять проваливается?</span>
-                    </div>
-                    <div class="card-describe pl-3">Потому что делают ее без соблюдения технологических</div>
-                    <div class="card-describe pl-3">процессов.</div>
-                </div>
-                <div class="mt-3">
-                    <div>
-                        <img src="./images/+.svg" class="mr-3 align-baseline" alt="">
-                        <span class="card-describe">Почему вода мокрая?</span>
-                    </div>
-                </div>
-                <div class="mt-3">
-                    <div>
-                        <img src="./images/+.svg" class="mr-3 align-baseline" alt="">
-                        <span class="card-describe">Видят ли микробы друг друга?</span>
-                    </div>
-                </div>
-                <div class="mt-3">
-                    <div>
-                        <img src="./images/+.svg" class="mr-3 align-baseline" alt="">
-                        <span class="card-describe">Почему кровь красная а вены синие?</span>
-                    </div>
-                </div>
-                <div class="mt-3">
-                    <div>
-                        <img src="./images/+.svg" class="mr-3 align-baseline" alt="">
-                        <span class="card-describe mt-5">Из чего сделана радуга? </span>
-                    </div>
-                </div>
-            </div>
+        <div class="col-4">
+          <img src="./images/Card-2.png" alt="" class="mb-2">
+          <div class="card-time">05.03.2020</div>
+          <div class="mb-2 card-title">Burn Calories Quicker in 30 Min.</div>
+          <div class="d-flex flex-row gap-1">
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ПРО ПРОДУКТ</span>
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ТЭГИ</span>
+          </div>
+          <span class="card-describe">Не следует, однако забывать, что</span>
+          <div class="card-describe">дальнейшее развитие различных форм </div>
+          <div class="card-describe">деятельности</div>
         </div>
+        <div class="col-4">
+          <img src="./images/Card-3.png" alt="" class="mb-2">
+          <div class="card-time">05.03.2020</div>
+          <div class="mb-2 card-title">Burn Calories Quicker in 30 Min.</div>
+          <div class="d-flex flex-row gap-1">
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ПРО ПРОДУКТ</span>
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ТЭГИ</span>
+          </div>
+          <span class="card-describe">Не следует, однако забывать, что</span>
+          <div class="card-describe">дальнейшее развитие различных форм </div>
+          <div class="card-describe">деятельности</div>
+        </div>
+      </div>
+      <div class="row mt-4 mb-5">
+        <div class="col-4">
+          <img src="./images/Card-1.png" alt="" class="mb-2">
+          <div class="card-time">05.03.2020</div>
+          <div class="mb-2 card-title">Burn Calories Quicker in 30 Min.</div>
+          <div class="d-flex flex-row gap-1">
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ПРО ПРОДУКТ</span>
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ТЭГИ</span>
+          </div>
+          <span class="card-describe">Не следует, однако забывать, что</span>
+          <div class="card-describe">дальнейшее развитие различных форм </div>
+          <div class="card-describe">деятельности</div>
+        </div>
+        <div class="col-4">
+          <img src="./images/Card-2.png" alt="" class="mb-2">
+          <div class="card-time">05.03.2020</div>
+          <div class="mb-2 card-title">Burn Calories Quicker in 30 Min.</div>
+          <div class="d-flex flex-row gap-1">
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ПРО ПРОДУКТ</span>
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ТЭГИ</span>
+          </div>
+          <span class="card-describe">Не следует, однако забывать, что</span>
+          <div class="card-describe">дальнейшее развитие различных форм </div>
+          <div class="card-describe">деятельности</div>
+        </div>
+        <div class="col-4">
+          <img src="./images/Card-3.png" alt="" class="mb-2">
+          <div class="card-time">05.03.2020</div>
+          <div class="mb-2 card-title">Burn Calories Quicker in 30 Min.</div>
+          <div class="d-flex flex-row gap-1">
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ПРО ПРОДУКТ</span>
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ТЭГИ</span>
+          </div>
+          <span class="card-describe">Не следует, однако забывать, что</span>
+          <div class="card-describe">дальнейшее развитие различных форм </div>
+          <div class="card-describe">деятельности</div>
+        </div>
+      </div>
     </div>
-    <div class="form-block container-fluid mt-5">
-    <div class="container d-flex flex-column align-items-center">
-      <div class="for-title mt-5">
-          Нет ответа на интересующий вопрос?
+
+    <div class="tab-pane fade" id="news-cards" role="tabpanel">
+      <div class="row mt-4 mb-5">
+        <div class="col-4">
+          <img src="./images/Card-1.png" alt="" class="mb-2">
+          <div class="card-time">05.03.2020</div>
+          <div class="mb-2 card-title">Burn Calories Quicker in 30 Min.</div>
+          <div class="d-flex flex-row gap-1">
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ПРО ПРОДУКТ</span>
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ТЭГИ</span>
+          </div>
+          <span class="card-describe">Не следует, однако забывать, что</span>
+          <div class="card-describe">дальнейшее развитие различных форм </div>
+          <div class="card-describe">деятельности</div>
+        </div>
+        <div class="col-4">
+          <img src="./images/Card-1.png" alt="" class="mb-2">
+          <div class="card-time">05.03.2020</div>
+          <div class="mb-2 card-title">Burn Calories Quicker in 30 Min.</div>
+          <div class="d-flex flex-row gap-1">
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ПРО ПРОДУКТ</span>
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ТЭГИ</span>
+          </div>
+          <span class="card-describe">Не следует, однако забывать, что</span>
+          <div class="card-describe">дальнейшее развитие различных форм </div>
+          <div class="card-describe">деятельности</div>
+        </div>
       </div>
-      <div class="card-describe mt-3">
-          Заполни форму и наши менеджеры свяжутся с тобой
-      </div>
-      <div class="row col-4">
-        <label class="form-label mb-3">
-          Имя*:
-          <input type="email" class="form-control rounded-5" placeholder="Иван" aria-describedby="emailHelp">
-        </label>
-      </div>
-      
-      <div class="row col-4">
-        <label class="form-label mb-3">
-          Электронная почта*:
-          <input type="email" class="form-control rounded-5" placeholder="ivan@mail.com" aria-describedby="emailHelp">
-        </label>
-      </div>
-      
-      <div class="row col-4">
-        <label class="form-label mb-3">
-          Телефон*:
-          <input type="email" class="form-control rounded-5" placeholder="+38 000 000 00 00" aria-describedby="emailHelp">
-        </label>
-      </div>
-      <div class="row col-4">
-        <label class="form-label mb-3">
-          Твой вопрос:
-          <textarea class="form-control" id="comment" placeholder="введите тут" rows="3"></textarea>
-        </label>
-      </div>
-      <button type="submit" class="btn btn-primary rounded-5 button_trial mb-5">Отправить</button>
     </div>
+
+    <div class="tab-pane fade" id="edu-cards" role="tabpanel">
+      <div class="row mt-4 mb-5">
+        <div class="col-4">
+          <img src="./images/Card-2.png" alt="" class="mb-2">
+          <div class="card-time">05.03.2020</div>
+          <div class="mb-2 card-title">Burn Calories Quicker in 30 Min.</div>
+          <div class="d-flex flex-row gap-1">
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ПРО ПРОДУКТ</span>
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ТЭГИ</span>
+          </div>
+          <span class="card-describe">Не следует, однако забывать, что</span>
+          <div class="card-describe">дальнейшее развитие различных форм </div>
+          <div class="card-describe">деятельности</div>
+        </div>
+        <div class="col-4">
+          <img src="./images/Card-2.png" alt="" class="mb-2">
+          <div class="card-time">05.03.2020</div>
+          <div class="mb-2 card-title">Burn Calories Quicker in 30 Min.</div>
+          <div class="d-flex flex-row gap-1">
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ПРО ПРОДУКТ</span>
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ТЭГИ</span>
+          </div>
+          <span class="card-describe">Не следует, однако забывать, что</span>
+          <div class="card-describe">дальнейшее развитие различных форм </div>
+          <div class="card-describe">деятельности</div>
+        </div>
+      </div>
     </div>
+
+    <div class="tab-pane fade" id="laws-cards" role="tabpanel">
+      <div class="row mt-4 mb-5">
+        <div class="col-4">
+          <img src="./images/Card-3.png" alt="" class="mb-2">
+          <div class="card-time">05.03.2020</div>
+          <div class="mb-2 card-title">Burn Calories Quicker in 30 Min.</div>
+          <div class="d-flex flex-row gap-1">
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ПРО ПРОДУКТ</span>
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ТЭГИ</span>
+          </div>
+          <span class="card-describe">Не следует, однако забывать, что</span>
+          <div class="card-describe">дальнейшее развитие различных форм </div>
+          <div class="card-describe">деятельности</div>
+        </div>
+        <div class="col-4">
+          <img src="./images/Card-3.png" alt="" class="mb-2">
+          <div class="card-time">05.03.2020</div>
+          <div class="mb-2 card-title">Burn Calories Quicker in 30 Min.</div>
+          <div class="d-flex flex-row gap-1">
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ПРО ПРОДУКТ</span>
+            <span class="bg-light border rounded-5 py-1 px-2 card-tag">ТЭГИ</span>
+          </div>
+          <span class="card-describe">Не следует, однако забывать, что</span>
+          <div class="card-describe">дальнейшее развитие различных форм </div>
+          <div class="card-describe">деятельности</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <img src="./images/diverse line.svg" class="w-75 mx-auto mb-5">
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-8">
+      <div class="for-title mb-3 fw-bold fs-4">
+        Популярные вопросы и ответы на них
+      </div>
+
+      <div class="card-title mb-3 fw-semibold">
+        Популярные вопросы
+        <img src="./images/-.svg" alt="">
+      </div>
+
+      <div class="accordion" id="faqAccordion">
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne">
+              Почему круглую пиццу ставят в квадратную коробку, а нарезают треугольниками?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Потому что квадратные коробки проще и дешевле производить, а нарезка треугольниками — самый удобный способ
+              делить круг.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo">
+              Почему после ремонта дорога опять проваливается?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Потому что делают её без соблюдения технологических процессов.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree">
+              Почему вода мокрая?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              «Мокрость» — это ощущение, возникающее из-за свойств воды смачивать поверхности и испаряться с кожи.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour">
+              Видят ли микробы друг друга?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Нет, микробы не имеют органов зрения, но могут "чувствовать" друг друга через химические сигналы.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFive">
+              Почему кровь красная, а вены синие?
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Кровь всегда красная, просто под кожей вены кажутся синими из-за того, как свет проходит через ткани.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseSix">
+              Из чего сделана радуга?
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Радуга появляется из-за преломления и рассеивания солнечного света в каплях воды.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content custom-modal-content">
+      <button type="button" class="btn-close custom-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      <div class="modal-body">
+        <div class="custom-modal-title">Спасибо</div>
+        <div class="custom-modal-text">
+          Твое сообщение отправлено!<br>
+          Наши менеджеры свяжутся с тобой<br>
+          в ближайшее время
+        </div>
+        <img src="./images/Group.png" alt="mail" class="custom-modal-img">
+      </div>
+    </div>
+  </div>
+</div>
+
+    <form class="form-block container-fluid mt-5" id="target-block">
+  <div class="container d-flex flex-column align-items-center">
+    <div class="for-title mt-5">
+      Попробовать сейчас
+    </div>
+    <div class="card-describe mt-3">
+      Заполни форму и наши менеджеры свяжутся с тобой
+    </div>
+    <div class="row col-4">
+      <label class="form-label mb-3">
+        Имя*:
+        <input type="text" class="form-control rounded-5" placeholder="Иван" required>
+      </label>
+    </div>
+    <div class="row col-4">
+      <label class="form-label mb-3">
+        Электронная почта*:
+        <input type="email" class="form-control rounded-5" placeholder="ivan@mail.com" required>
+      </label>
+    </div>
+    <div class="row col-4">
+      <label class="form-label mb-3">
+        Телефон*:
+        <input type="tel" class="form-control rounded-5" placeholder="+7 906 593 03 24" required>
+      </label>
+    </div>
+    <div class="row col-4">
+      <label class="form-label mb-3">
+        Твой вопрос:
+        <textarea class="form-control" id="comment" placeholder="введите тут" rows="3" required></textarea>
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary rounded-5 button_trial mb-5">Отправить</button>
+  </div>
+</form>
     <footer>
         <div class="container-fluid bg-blue-800" style="height: 288px; background-color: rgb(6, 18, 36);">
-      <div class="container h-100 text-white">
+      <div class="container h-100 text-white pl-0 pr-0">
         <div class="row d-flex h-100 justify-content-between">
           <div class="col-3 d-flex flex-column mt-5 mb-4 justify-content-between">
             <img src="./images/Logo.svg" alt="Logo" />
@@ -302,6 +572,15 @@
       </div>
     </div>
     </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+document.getElementById('target-block').addEventListener('submit', function(event) {
+  event.preventDefault();
+  event.target.reset();
+  var modal = new bootstrap.Modal(document.getElementById('successModal'));
+  modal.show();
+});
+</script>
 </body>
 </html>
